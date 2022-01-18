@@ -11,3 +11,7 @@ __version__ = '0.2.3'
 # Library and resource paths
 PATH_LIB = os.path.dirname(__file__) + os.sep
 PATH_RES = PATH_LIB + 'resources' + os.sep
+
+from .datetime import DateTime
+from .geopos import GeoPos
+from .chart import Chart
